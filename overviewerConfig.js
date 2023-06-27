@@ -23,13 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "Project - overworld",
         "Survival-1 - overworld",
         "Survival-2 - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1687859558",
+        "cacheTag": "1687860842",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -42,62 +41,6 @@ var overviewerConfig = {
         }
     },
     "tilesets": [
-        {
-            "name": "Railway Project",
-            "zoomLevels": 6,
-            "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "Railway Project Progress-Day",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Project - overworld",
-            "last_rendertime": 1687858316,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                289,
-                80,
-                116
-            ],
-            "lastrenderversion": 2,
-            "minZoom": 0,
-            "spawn": [
-                289,
-                80,
-                116
-            ],
-            "north_direction": 1
-        },
-        {
-            "name": "Railway Project-night",
-            "zoomLevels": 6,
-            "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "Railway Project Progress-Night",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Project - overworld",
-            "last_rendertime": 1687858316,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                289,
-                80,
-                116
-            ],
-            "lastrenderversion": 2,
-            "minZoom": 0,
-            "spawn": [
-                289,
-                80,
-                116
-            ],
-            "north_direction": 1
-        },
         {
             "name": "Survival-1.12.2 Daytime",
             "zoomLevels": 6,
