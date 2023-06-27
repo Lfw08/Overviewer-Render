@@ -23,12 +23,13 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
+        "Project - overworld",
         "Survival-1 - overworld",
         "Survival-2 - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1687760578",
+        "cacheTag": "1687849926",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,6 +42,34 @@ var overviewerConfig = {
         }
     },
     "tilesets": [
+        {
+            "name": "Railway Project",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "Railway Project Progress",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Project - overworld",
+            "last_rendertime": 1687846078,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                289,
+                320,
+                116
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": [
+                289,
+                320,
+                116
+            ],
+            "north_direction": 0
+        },
         {
             "name": "Survival-1.12.2 Daytime",
             "zoomLevels": 6,
