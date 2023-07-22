@@ -23,12 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "Survival-1 - overworld",
-        "Survival-2 - overworld"
+        "Survival-1 - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1687860842",
+        "cacheTag": "1689949679",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,7 +49,35 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Survival-1 - overworld",
-            "last_rendertime": 1687759738,
+            "last_rendertime": 1689929689,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                24,
+                96,
+                36
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": [
+                24,
+                96,
+                36
+            ],
+            "north_direction": 2
+        },
+        {
+            "name": "Survival-1.12.2 Caves",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "survival-1-cave-south",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Survival-1 - overworld",
+            "last_rendertime": 1689929689,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -78,7 +105,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Survival-1 - overworld",
-            "last_rendertime": 1687759738,
+            "last_rendertime": 1689929689,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -94,62 +121,6 @@ var overviewerConfig = {
                 24,
                 96,
                 36
-            ],
-            "north_direction": 2
-        },
-        {
-            "name": "Survival-1.7.10 Daytime",
-            "zoomLevels": 6,
-            "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "survival-2-day-south",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Survival-2 - overworld",
-            "last_rendertime": 1662385875,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                8,
-                64,
-                256
-            ],
-            "lastrenderversion": 2,
-            "minZoom": 0,
-            "spawn": [
-                8,
-                64,
-                256
-            ],
-            "north_direction": 2
-        },
-        {
-            "name": "Survival-1.7.10 Nighttime",
-            "zoomLevels": 6,
-            "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "survival-2-night-south",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Survival-2 - overworld",
-            "last_rendertime": 1662385875,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                8,
-                64,
-                256
-            ],
-            "lastrenderversion": 2,
-            "minZoom": 0,
-            "spawn": [
-                8,
-                64,
-                256
             ],
             "north_direction": 2
         }
